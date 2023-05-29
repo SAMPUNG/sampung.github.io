@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.display-demo {
+  /* background-image: url(../images/wind.png);
+  background-position: center center;
+  background-size: 100% 100%; */
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.display-demo aside {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  width: 512px;
+}
+
+.display-demo .left {
+  background: linear-gradient(
+    to right,
+    rgba(16, 64, 128, 0.25) 75%,
+    rgba(16, 64, 128, 0.15) 90%,
+    rgba(16, 64, 128, 0)
+  );
+}
+.display-demo .center {
+  flex-grow: 1;
+}
+.display-demo .right {
+  background: linear-gradient(
+    to left,
+    rgba(16, 64, 128, 0.25) 75%,
+    rgba(16, 64, 128, 0.15) 90%,
+    rgba(16, 64, 128, 0)
+  );
+}
+
+.chart-container {
+  height: 256px;
+  width: 100%;
+}

@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+aside {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+  max-width: 512px;
+  width: 100%;
+}
+
+aside.left {
+  background: linear-gradient(
+    to right,
+    rgba(16, 64, 128, 0.25) 75%,
+    rgba(16, 64, 128, 0.15) 90%,
+    rgba(16, 64, 128, 0)
+  );
+  float: left;
+}
+aside.right {
+  background: linear-gradient(
+    to left,
+    rgba(16, 64, 128, 0.25) 75%,
+    rgba(16, 64, 128, 0.15) 90%,
+    rgba(16, 64, 128, 0)
+  );
+  float: right;
+}
+
+.chart-container {
+  min-height: 256px;
+  width: 100%;
+}
