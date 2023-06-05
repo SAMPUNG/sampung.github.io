@@ -14,8 +14,8 @@ body {
 }
 
 .display-demo aside {
-  /* -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px); */
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
